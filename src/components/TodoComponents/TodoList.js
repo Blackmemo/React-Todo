@@ -3,11 +3,11 @@
 import React from 'react';
 import Todo from './Todo';
 
-const TodoList= props => {
+const TodoList = props => {
     return (
     <div className="list">
-        {props.theTodoList.map((todo, index) => {
-       return <Todo todo={todo} key ={index} />
+        {props.theTodoList.map((todo) => {
+       return <Todo todo={todo} key ={todo.id} />
         })}
         </div>
     )
