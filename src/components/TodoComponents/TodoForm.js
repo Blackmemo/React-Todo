@@ -12,7 +12,7 @@ const TodoForm = props => {
             />
             <div className="btns">
             <button onClick={props.addNewTodo}>Add Todo</button>
-            <button>Clear Completed</button>
+            <button onClick={props.removeCompleted}>Clear Completed</button>
             </div>
         </form>
     );

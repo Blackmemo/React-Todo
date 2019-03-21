@@ -50,3 +50,8 @@ button {
     border-radius: .5rem;
     
 }
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
