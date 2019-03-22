@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-clip: content-box;
+    background: url('./backgroundimg.png');
+    background-position: center;
+    width: 55%;
+    margin: 6rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.item {
+    margin: .5rem;
+    color: red;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+form {
+    margin-top: 2.4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input {
+width: 70%;
+text-align: center;
+margin: 0 auto;
+padding: .4rem;
+}
+
+
+.btns {
+    display: flex;
+    padding-left: 10rem;
+}
+button {
+    padding: .2rem;
+    width: 45%;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
